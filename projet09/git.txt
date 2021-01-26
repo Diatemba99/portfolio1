@@ -1,0 +1,9 @@
+git checkout -b tino99
+ git status
+ git add .
+ git checkout master
+ git remote add upstream https://github.com/Diatemba99/portfolio1.git
+ git fetch upstream
+ git rebase upstream/master
+ git commit -m "seconde modif"
+ git push origin master
